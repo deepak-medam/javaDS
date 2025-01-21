@@ -6,19 +6,19 @@
 - In real life we have a tree where there is a root, branches and leaves, In the same way in data structures we have similar things but upside down.
 - The top start node is called root and the bottom end nodes are called leaf nodes and in between ones are called branches.
 
-!["Tree parts"]("https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_01.png?raw=true")
+!["Tree parts"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_01.png?raw=true)
 
 ### Levels & Subtrees
 
 - Binary Tree is a tree where at max we have only 2 children.
 - Levels and SubTree: We know that data is stored in hierarchical fashion where we have different levels. The data thats stored in first level is called level 01 and level increases respectively and the Depth of 1st level is 1 and depth keeps increasing by 1 at each level.
 
-!["Tree Level and depth image"]("https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_02.png?raw=true")
+!["Tree Level and depth image"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_02.png?raw=true)
 
 - We derive another concept from level and depth and its called SubTree.
 - Every node has its subtree.
 
-!["SubTree example"]("https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_03.png?raw=true")
+!["SubTree example"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_03.png?raw=true)
 
 - Left subtree node starts with 2 and right sub tree node starts with 3.
 - Leaf node is also a subtree whose value is null.
@@ -30,7 +30,7 @@
 - In preorder -1 stands for null
 - The best way to build a tree from preorder sequence is you start with your node then build the left sub tree downwards till you reach null then build your right subtree upwards we do this whole process recursively(node, left subtree, right subtree).
 
-!["Binary Tree from preorder"]("https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_04.PNG?raw=true")
+!["Binary Tree from preorder"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_04.PNG?raw=true)
 
 ### Tree Traversals
 
@@ -84,7 +84,7 @@
 
 ##### Insert Image05
 
-!["Height of a Tree"]("https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_05.png?raw=true")
+!["Height of a Tree"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_05.png?raw=true)
 
 #### Count of Nodes
 
