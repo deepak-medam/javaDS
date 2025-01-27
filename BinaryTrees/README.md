@@ -82,11 +82,56 @@
 - The connecting line between nodes is called edge.
 - We will calculate height in terms of nodes, you can get edges value by subtracting one from nodes value.
 
-##### Insert Image05
-
 !["Height of a Tree"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BinaryTrees/BinaryTree_05.png?raw=true)
 
 #### Count of Nodes
 
 - In trees almost all the questions can be solved using recursion. First we calculate for child and automatically we will get parent calculation.
 - Each node return its subtree node count if the subtree is null then it returns 0.
+
+## Binary Trees Part 02
+
+### Diameter of a Tree
+
+- Diameter is defined as the number of nodes in the longest path between two leaves.
+- There are two appraoches where Root node can be included in the diameter or not included.
+- In Appraoch 1 where root node is included we can say that the diameter is equal to left tree height plus right
+  tree hight plus 1.
+- If the diameter doesn't include root node then we calculate the diameter of left height and diameter of
+  right height and compare these two diameters with the approach 1 diameter and whichever is maximum of three will
+  become the diameter of the tree.
+
+### Subtree of another Tree
+
+- Given the roots of two binary tree root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot and false otherwise.
+- Basically we pass our full tree and our subtree and check if the subtree exists as is in main tree if it exists then we return true or else false.
+- A tree is identical only if its structure and node values are same
+
+1. Find subroot in Tree.
+2. Check identical(subtree, node subtree)
+
+- We use tree traversal to find the root of the subtree in main tree.
+- Trees are not identical when
+  - node.data != subroot.data
+  - node = null || subRoot = null
+  - leftSubtree - non-identical
+  - rightSubtree - non-identical
+
+### Topview of a Tree
+
+- In topview of a tree you print all the nodes that will be visible when you see a tree from top.
+
+#### HashMaps
+
+- Map is a data structure that stores pairs where one is called key and other is called value.
+- Key is unique value.
+- There are three types of maps
+
+  - Hash Map
+  - Linked Hash Map
+  - Tree Map
+
+- Trees have a property called horizontal distance.
+- Origin starts from root node.
+- For a node whose distance value is x the left child value will be x-1 and the right child value will be x+1.
+- To calculate a top view of binary tree we use hash maps and horizontal distance.
