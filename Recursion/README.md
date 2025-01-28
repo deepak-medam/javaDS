@@ -37,3 +37,32 @@
 - The new recursive call in the stack is called call frame.
 - When there is more than one recursion call it will form a tree structure.
 - Recursion has O(n) space complexity and O(2^n) time Complexity
+
+### Problems
+
+#### 1. Print Numbers in Decreasing Order
+
+#### 2. Print Numbers in Increasing Order
+
+#### 3. Find Factorial of N
+
+#### 4. Print Sum of N natural numbers
+
+#### 5. Print nth Fibonacci number
+
+#### 6. Check If Array is sorted
+
+#### 7. First Occurence
+
+#### 8. Last Occurence
+
+#### 9. X to the power N
+
+#### 10. X to the power N Optimized
+
+#### 11. Tiling Problem
+
+- Given a 2xn board and tiles of size 2x1 count the number of ways to tile the given board using 2x1 tiles.
+- A tile can either be placed horizontally or vertically.
+
+#### 12. Remove Duplicates in a String
