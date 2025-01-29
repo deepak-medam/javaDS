@@ -15,13 +15,13 @@
 
    - Find and print all subsets of a given string.
    - If a string is of length n, then it will have 2^n subsets.
-     !["Insert image 01"]()
+     !["Backtracking string subset image"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BackTracking/backtracking_01.png?raw=true)
 
 3. Find and print all permutations of a String.
 
    - If you have n elements you will have n! permutations.
    - This is enumeration type backtracking.
-     !["Insert image 02"]()
+     !["Backtracking string permutation image"](https://github.com/deepak-medam/Courses-Images/blob/main/javaDS/BackTracking/backtracking_02.png?raw=true)
 
 4. N Queens: Place N queens on an NxN chessboard such that no 2 queens can attack each other.
 
